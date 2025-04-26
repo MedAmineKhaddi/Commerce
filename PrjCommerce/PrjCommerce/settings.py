@@ -92,6 +92,7 @@ DATABASES = {
     }
 }
 #postgresql://CommerceDb_owner:npg_iaH1hfbrDUu5@ep-tight-term-a4zemb5u-pooler.us-east-1.aws.neon.tech/CommerceDb?sslmode=require
+#postgresql://CommerceDb_owner:npg_iaH1hfbrDUu5@ep-tight-term-a4zemb5u-pooler.us-east-1.aws.neon.tech/CommerceDb?sslmode=require
 
 
 
