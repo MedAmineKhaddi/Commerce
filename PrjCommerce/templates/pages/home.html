@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block content %}
+  {% load static %}
+ <!DOCTYPE html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>BenAziz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <html lang="en"></html>
+  </head>
+
+  <body>
+    <div class="phrase">
+      <p>Bienvenue dans notre collection de meubles</p>
+    </div>
+    <div class="container">
+      <div class="salons">
+        <div id="categorie">
+          <h2><a href="#">collection des salons</a></h2>
+         
+        </div>
+        <div class="gallerie">
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+        </div>
+          
+      </div> 
+      <div class="lits">
+          <div id="categorie">
+          <h2><a href="#">collection des lits</a></h2>
+
+        </div>
+        <div class="gallerie">
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+        </div>
+      </div>
+      <div class="chaises">
+          <div id="categorie">
+          <h2><a href="#">collection des chaises</a></h2>
+
+        </div>
+        <div class="gallerie">
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+        </div>
+      </div>
+      <div class="rideaux">
+          <div id="categorie">
+          <h2><a href="#">collection des rideaux</a></h2>
+
+        </div>
+        <div class="gallerie">
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+        </div>
+      </div>
+      <div class="autres">
+          <div id="categorie">
+          <h2><a href="#">collection des autres</a></h2>
+
+        </div>
+        <div class="gallerie">
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+          <img>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <style>
+    #categorie {
+      text-align: center;
+      margin: 20px 0;
+      text-transform: uppercase;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .phrase {
+      text-align: center ;
+      margin: 20px 0;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: rgb(227, 70, 102);
+      color:white;
+      text-decoration: underline;
+    }
+    a {
+      
+      color: black;
+    }
+    a:hover {
+      color:#b68705 ;
+    }
+  </style>
+
+{% endblock content %}
